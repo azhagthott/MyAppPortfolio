@@ -10,7 +10,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-
     private Button capstoneButton;
 
     @Override
@@ -23,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         capstoneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch my capstone app!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my capstone app!",
+                        Toast.LENGTH_SHORT).show();
             }
         });
     }

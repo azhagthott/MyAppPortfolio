@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="udacious">#F08C35</color>
+    <color name="udacious_color">#F08C35</color>
     <color name="main_background">#DFEAF1</color>
     <color name="button_text_color">#DFEAF1</color>
 

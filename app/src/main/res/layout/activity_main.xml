@@ -10,6 +10,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
+    <!-- TODO: add shadows to the buttons -->
+
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -25,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/media_streamer"
-        android:background="@color/udacious"
+        android:background="@color/udacious_color"
         android:textColor="@color/button_text_color"
         android:layout_below="@+id/title"
         android:layout_marginTop="24dp"
@@ -40,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/super_duo_1"
-        android:background="@color/udacious"
+        android:background="@color/udacious_color"
         android:textColor="@color/button_text_color"
         android:layout_below="@+id/button"
         android:layout_alignRight="@+id/button6"
@@ -54,35 +56,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/super_duo_2"
-        android:background="@color/udacious"
+        android:background="@color/udacious_color"
         android:textColor="@color/button_text_color"
         android:layout_below="@+id/button2"
+        android:layout_marginBottom="4dp"
         android:layout_alignRight="@+id/button6"
         android:layout_alignEnd="@+id/button6"
         android:layout_alignLeft="@+id/button6"
-        android:layout_alignStart="@+id/button6"
-        android:layout_marginBottom="4dp"/>
+        android:layout_alignStart="@+id/button6" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ant_terminator"
-        android:background="@color/udacious"
+        android:background="@color/udacious_color"
         android:textColor="@color/button_text_color"
         android:layout_below="@+id/button3"
         android:layout_marginBottom="4dp"
-        android:layout_alignRight="@+id/button5"
-        android:layout_alignEnd="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_alignRight="@+id/button6"
+        android:layout_alignEnd="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/materialize"
-        android:background="@color/udacious"
+        android:background="@color/udacious_color"
         android:textColor="@color/button_text_color"
         android:layout_below="@+id/button4"
         android:layout_marginBottom="4dp"
